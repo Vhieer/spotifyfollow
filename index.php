@@ -64,8 +64,8 @@ if($param==null){
 cp:
 while(1){
 reg:
-$email = "agathaaaa+".substr(str_shuffle('abcdefghijklmnopqrstuvwxyz0123456789'), 0, 8)."@proton.me";
-$pass = "Agathasangkara";
+$email = "vhierowo+".substr(str_shuffle('abcdefghijklmnopqrstuvwxyz0123456789'), 0, 8)."@proton.me";
+$pass = "VhieerOwO";
 $reg = signup($email,$pass);
 list($head,$param) = explode("\r\n\r\n",$reg,2);
 $json = json_decode($param, true);
